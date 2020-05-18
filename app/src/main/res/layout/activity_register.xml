@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F9"
+    tools:context=".register">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrate"
+            android:textColor="#D72FE0"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="45dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="Nombre y Apellido"
+            android:textColorHint="#A7B8B8"
+            app:boxBackgroundColor="@color/login_details_medium"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="5dp"
+            app:boxCornerRadiusBottomStart="5dp"
+            app:boxCornerRadiusTopEnd="5dp"
+            app:boxCornerRadiusTopStart="5dp"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtLayoutNombreR"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:drawableLeft="@drawable/ic_action_person"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+
+                android:textColor="#7B7E7E" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            app:boxBackgroundMode="outline"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            app:boxCornerRadiusBottomEnd="5dp"
+            app:boxCornerRadiusBottomStart="5dp"
+            app:boxCornerRadiusTopEnd="5dp"
+            app:boxCornerRadiusTopStart="5dp"
+            android:textColorHint="#A7B8B8"
+            android:hint="Correo electrónico"
+            app:boxBackgroundColor="@color/login_details_medium"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtLayoutEmailR"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:drawableLeft="@drawable/ic_action_mail"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+
+                android:textColor="#7B7E7E" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            app:boxBackgroundMode="outline"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            app:boxCornerRadiusBottomEnd="5dp"
+            app:boxCornerRadiusBottomStart="5dp"
+            app:boxCornerRadiusTopEnd="5dp"
+            app:boxCornerRadiusTopStart="5dp"
+            android:textColorHint="#A7B8B8"
+            android:hint="Usuario"
+            app:boxBackgroundColor="@color/login_details_medium"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtLayoutUserR"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:drawableLeft="@drawable/ic_action_users"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+
+
+                android:textColor="#7B7E7E" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            app:boxBackgroundMode="outline"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#D72FE0"
+            app:boxCornerRadiusBottomEnd="5dp"
+            app:boxCornerRadiusBottomStart="5dp"
+            app:boxCornerRadiusTopEnd="5dp"
+            app:boxCornerRadiusTopStart="5dp"
+            android:textColorHint="#A7B8B8"
+            android:hint="Contraseña"
+            app:boxBackgroundColor="@color/login_details_medium"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtLayoutPassR"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_action_pass"
+                android:drawableLeft="@drawable/ic_action_users"
+                android:inputType="textPassword"
+
+
+                android:padding="15dp"
+                android:textColor="#7B7E7E" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            app:boxBackgroundMode="outline"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#D72FE0"
+            app:boxCornerRadiusBottomEnd="5dp"
+            app:boxCornerRadiusBottomStart="5dp"
+            app:boxCornerRadiusTopEnd="5dp"
+            app:boxCornerRadiusTopStart="5dp"
+            android:textColorHint="#A7B8B8"
+            android:hint="Repetir Contraseña"
+            app:boxBackgroundColor="@color/login_details_medium"
+
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtLayoutPass2R"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_action_pass"
+                android:drawableLeft="@drawable/ic_action_pass"
+                android:inputType="textPassword"
+
+
+                android:padding="15dp"
+                android:textColor="#7B7E7E" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/BotonRegister_R"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/boton"
+            android:text="Crear Usuario"
+            android:textColor="#fff" />
+        <ImageView
+            android:id="@+id/refreshR"
+            android:layout_marginTop="-50dp"
+            android:layout_marginLeft="130dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_action_refresh"
+            android:layout_gravity="center"
+
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

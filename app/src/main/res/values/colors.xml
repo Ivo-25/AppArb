@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tool="http://schemas.android.com/apk/res-auto">
+    <color name="colorPrimary">#EC9DFA</color>
+    <color name="colorPrimaryDark">#EC9DFA</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="login_details_medium">#51E8E0E0</color>
+    <color name="login_details">#ccffffff</color>
+    <color name="login_details_light">#1affffff</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tool:override="true">#EC9DFA</color>
+
+</resources>
